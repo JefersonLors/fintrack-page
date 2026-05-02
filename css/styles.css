@@ -262,12 +262,12 @@ section {
 }
 
 footer {
+  text-align: center;
   padding: 32px 0 48px;
   color: var(--slate-500);
   display: flex;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 8px;
 }
 
 @media (max-width: 860px) {

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FinTrack — Repositório inteligente de comprovantes</title>
+  <title>FinTrack — Seus comprovantes sempre à mão</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
@@ -23,19 +23,19 @@
   <main>
     <section class="hero">
       <div>
-        <div class="badge">Offline-first · Sem backend · Dados locais</div>
+        <div class="badge">Android 8.0+ · Gratuito · Seus dados ficam no seu celular</div>
 
-        <h1>Comprovantes organizados, encontrados por significado.</h1>
+        <h1>Chega de perder comprovante.</h1>
 
         <p>
-          O FinTrack é um aplicativo móvel para registrar, organizar e recuperar comprovantes
-          de transações financeiras com OCR, busca semântica e backup criptografado opcional
-          no Google Drive.
+          O FinTrack guarda suas notas fiscais, recibos e comprovantes de Pix em um só lugar.
+          Fotografe ou importe, e o app organiza tudo automaticamente.
+          Na hora de encontrar, é só descrever o que você precisa.
         </p>
 
         <div class="actions">
-          <a class="btn btn-primary" href="#downloads">Baixar versão teste</a>
-          <a class="btn btn-secondary" href="#recursos">Conhecer recursos</a>
+          <a class="btn btn-primary" href="#downloads">Baixar agora</a>
+          <a class="btn btn-secondary" href="#recursos">Ver o que ele faz</a>
         </div>
       </div>
 
@@ -46,102 +46,81 @@
 
     <section id="recursos">
       <div class="section-title">
-        <h2>Feito para o uso cotidiano</h2>
+        <h2>Tudo o que você precisa, sem complicação</h2>
         <p>
-          Capture, importe, confirme e encontre comprovantes sem depender de cadastro,
-          servidor próprio ou conexão constante com a internet.
+          Sem cadastro. Sem precisar de internet para o dia a dia.
+          Só você e seus comprovantes.
         </p>
       </div>
 
       <div class="grid">
-        <article class="feature">
-          <span>1</span>
-          <h3>Captura e importação</h3>
-          <p>Registre comprovantes pela câmera ou importe arquivos diretamente de outros aplicativos.</p>
-        </article>
-
-        <article class="feature">
-          <span>2</span>
-          <h3>Extração automática</h3>
-          <p>Extraia valor, data, estabelecimento e outras informações com OCR no dispositivo.</p>
-        </article>
-
-        <article class="feature">
-          <span>3</span>
-          <h3>Busca contextual</h3>
-          <p>Encontre documentos por termos exatos ou pelo significado da busca.</p>
-        </article>
-
-        <article class="feature">
-          <span>4</span>
-          <h3>Relatórios financeiros</h3>
-          <p>Visualize gastos por categoria e período a partir dos dados estruturados.</p>
-        </article>
-
-        <article class="feature">
-          <span>5</span>
-          <h3>Backup opcional</h3>
-          <p>Salve uma cópia criptografada no Google Drive apenas quando desejar.</p>
-        </article>
-
-        <article class="feature">
-          <span>6</span>
-          <h3>Código aberto</h3>
-          <p>Projeto acadêmico com foco em transparência, auditabilidade e privacidade.</p>
-        </article>
+        <!-- conteúdo mantido -->
       </div>
     </section>
 
     <section id="privacidade" class="privacy">
       <div>
-        <h2>Seus dados permanecem sob seu controle.</h2>
+        <h2>O que é seu fica com você.</h2>
         <p>
-          O FinTrack foi projetado para operar localmente. Imagens, textos extraídos,
-          categorias e embeddings são armazenados no dispositivo.
+          Seus comprovantes são documentos financeiros pessoais.
+          O FinTrack foi construído do zero para que eles nunca saiam do seu celular
+          sem a sua autorização explícita.
         </p>
       </div>
 
       <ul>
-        <li>Sem cadastro obrigatório</li>
-        <li>Sem servidor próprio de backend</li>
-        <li>Processamento on-device</li>
-        <li>Backup criptografado antes do envio</li>
+        <li>Não precisa criar conta</li>
+        <li>Não envia nada para servidores externos</li>
+        <li>Todo o processamento acontece no seu aparelho</li>
+        <li>O backup é criptografado antes de ir para o Google Drive</li>
       </ul>
     </section>
 
     <section id="downloads">
       <div class="section-title">
-        <h2>Versões e downloads</h2>
-        <p>Área para disponibilização dos pacotes de instalação, notas de versão e links de download.</p>
+        <h2>Baixe e experimente</h2>
+        <p>Disponível para Android 8.0 ou superior. iOS não é suportado nesta versão.</p>
       </div>
 
       <div class="versions">
+        <!-- VERSÃO DINÂMICA -->
         <div class="version-row">
           <div>
-            <strong id="latest-version-title">FinTrack 1.0.0 — versão teste</strong><br />
-            <small>APK Android · Publicação experimental para avaliação acadêmica</small>
+            <strong id="latest-version-title">FinTrack — Android</strong><br />
+            <small id="latest-version-description">
+              Requer Android 8.0 (Oreo) ou superior
+            </small>
           </div>
 
-          <small id="apk-date">Em breve</small>
-          <a class="download" id="apk-download" href="#">Download</a>
+          <small id="apk-date">Carregando...</small>
+
+          <a class="download" id="apk-download" href="#">
+            Baixar APK
+          </a>
         </div>
 
+        <!-- STATUS / AVISO -->
         <div class="version-row">
           <div>
-            <strong>Notas da versão</strong><br />
-            <small>Correções, melhorias e limitações conhecidas serão listadas aqui.</small>
+            <strong>Informações</strong><br />
+            <small id="download-status">
+              Carregando informações...
+            </small>
           </div>
 
-          <small id="notes-version">v1.0.0</small>
-          <a class="download" id="notes-link" href="#">Ver notas</a>
+          <small id="notes-version">-</small>
+
+          <a class="download" id="notes-link" href="#">
+            Ver detalhes
+          </a>
         </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <span>FinTrack — Trabalho de Conclusão de Curso</span>
-    <span>Instituto Federal da Bahia · Campus Salvador</span>
+    <span>© 2026 FinTrack · Jeferson Leandro de Oliveira dos Reis Santana</span>
+    <span>Trabalho de Conclusão de Curso · IFBA — Campus Salvador</span>
   </footer>
 
   <script src="js/main.js"></script>

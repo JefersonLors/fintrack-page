@@ -1,8 +1,10 @@
 {
   "latest": {
-    "version": "1.0.0",
-    "apk_url": "#",
-    "notes_url": "#",
-    "date": "Em breve"
+    "version": "1.11.9",
+    "apk_url": "https://drive.google.com/file/d/1R4pz-yu74lWse74RbN5oADVR-zvDb7lH/view?usp=sharing",
+    "notes_url": "Versão inicial para avaliação.",
+    "date": "01/05/2026",
+    "status": "Disponível",
+    "restricted": true
   }
 }
